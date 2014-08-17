@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{3978fdcb-6668-4049-b3b0-64c9bcd9a21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{d2fb42b8-634e-487f-b096-ba671491d780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{1a477b03-e246-43d9-9b3f-2b27b9a25a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{376d2151-3a9c-49b1-ab92-028ad3186a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content">
+      <UniqueIdentifier>{bf614576-70a0-43b1-8ddc-36a74ccc82c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3rdParty">
+      <UniqueIdentifier>{1e6b331d-0f96-4f9d-8464-1545f1f51614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actors">
+      <UniqueIdentifier>{5ac29160-f1cd-4e7d-8208-917e3afa6467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content\Loaders">
+      <UniqueIdentifier>{56e8d4b8-a217-4e4d-bb3c-d1f328694eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Terrain">
+      <UniqueIdentifier>{819d23de-c2b7-44f9-810d-e1e9c53d0ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Terrain\Heightmaps">
+      <UniqueIdentifier>{18123c24-8a20-40d3-adbe-af818c0bd326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Terrain\Grass">
+      <UniqueIdentifier>{6360a69b-5ae5-4747-a194-e474fbc0a8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Water">
+      <UniqueIdentifier>{eb282f03-6d7f-4082-9463-14273a62bb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Voxels">
+      <UniqueIdentifier>{16ded463-7626-4d07-81a0-afde239919fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Atmosphere">
+      <UniqueIdentifier>{ed937c72-f84c-48e4-b24c-834475b24f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Grass">
+      <UniqueIdentifier>{2fe4c363-d008-4448-a6af-aafa9164bef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Particles">
+      <UniqueIdentifier>{4ac1b5ff-7bab-4b26-a1c9-80efbdc5cf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Terrain">
+      <UniqueIdentifier>{21a549e8-5c19-45c4-86a7-3821b052ea62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Skybox">
+      <UniqueIdentifier>{3c76d8fb-d48c-47bd-8c7a-8a0c92d043d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Utils">
+      <UniqueIdentifier>{b54675d7-0806-4a13-821e-bcea620e2c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Ocean">
+      <UniqueIdentifier>{421b4aa2-8c4a-4963-8e73-eac6605792e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\General">
+      <UniqueIdentifier>{9860e105-e797-4e66-b92e-e5c44579e74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Voxel">
+      <UniqueIdentifier>{2e994edc-dd21-4198-917f-40504fec8ae5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\glApp.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glStd.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameTimer.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Geometry.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MathUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadShaders.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderableMesh.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lights.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\include\tinyxml2\tinyxml2.h">
+      <Filter>Source Files\3rdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor.h">
+      <Filter>Source Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObjectPlaceholder.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UniformBlocks.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>Source Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="src\COLLADALoader.h">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TGALoader.h">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DDSLoader.h">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\COLLADATypes.h">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParticleSystem.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LeapControl.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AtmosphereRenderer.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkyboxRenderer.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TerrainMesh.h">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TerrainRenderer.h">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TerrainLODQuadTree.h">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HeightmapCache.h">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HeightmapGenerator.h">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HeightmapManager.h">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GrassRenderer.h">
+      <Filter>Source Files\Graphics\Terrain\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GrassPatch.h">
+      <Filter>Source Files\Graphics\Terrain\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VoxelChunk.h">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ChunkMesh.h">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Voxel.h">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VoxelRenderer.h">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VoxelTreeGenerator.h">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OceanPlane.h">
+      <Filter>Source Files\Graphics\Water</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glApp.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameTimer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MathUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadShaders.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderableMesh.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\include\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files\3rdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObjectPlaceHolder.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="src\COLLADALoader.cpp">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TGALoader.cpp">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DDSLoader.cpp">
+      <Filter>Source Files\Content\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleSystem.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LeapControl.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AtmosphereRenderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkyboxRenderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerrainMesh.cpp">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerrainRenderer.cpp">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerrainLODQuadTree.cpp">
+      <Filter>Source Files\Graphics\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HeightmapCache.cpp">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HeightmapGenerator.cpp">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HeightmapManager.cpp">
+      <Filter>Source Files\Graphics\Terrain\Heightmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GrassPatch.cpp">
+      <Filter>Source Files\Graphics\Terrain\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GrassRenderer.cpp">
+      <Filter>Source Files\Graphics\Terrain\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VoxelChunk.cpp">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChunkMesh.cpp">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VoxelRenderer.cpp">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VoxelTreeGenerator.cpp">
+      <Filter>Source Files\Graphics\Voxels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OceanPlane.cpp">
+      <Filter>Source Files\Graphics\Water</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\atmosphere_h.glsl">
+      <Filter>Shaders\Atmosphere</Filter>
+    </None>
+    <None Include="Shaders\atmosphere-sky_fs.glsl">
+      <Filter>Shaders\Atmosphere</Filter>
+    </None>
+    <None Include="Shaders\atmosphere-sky_vs.glsl">
+      <Filter>Shaders\Atmosphere</Filter>
+    </None>
+    <None Include="Shaders\grass_fs.glsl">
+      <Filter>Shaders\Grass</Filter>
+    </None>
+    <None Include="Shaders\grass_gs.glsl">
+      <Filter>Shaders\Grass</Filter>
+    </None>
+    <None Include="Shaders\grass_h.glsl">
+      <Filter>Shaders\Grass</Filter>
+    </None>
+    <None Include="Shaders\grass_vs.glsl">
+      <Filter>Shaders\Grass</Filter>
+    </None>
+    <None Include="Shaders\particle_cs.glsl">
+      <Filter>Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\particle_fs.glsl">
+      <Filter>Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\particle_gs.glsl">
+      <Filter>Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\particle_vs.glsl">
+      <Filter>Shaders\Particles</Filter>
+    </None>
+    <None Include="Shaders\terrain_cs.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\terrain_fs.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\terrain_h.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\terrain_tess-ctrl.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\terrain_tess-eval.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\terrain_vs.glsl">
+      <Filter>Shaders\Terrain</Filter>
+    </None>
+    <None Include="Shaders\space-sky_fs.glsl">
+      <Filter>Shaders\Atmosphere</Filter>
+    </None>
+    <None Include="Shaders\space-sky_vs.glsl">
+      <Filter>Shaders\Atmosphere</Filter>
+    </None>
+    <None Include="Shaders\skybox_vs.glsl">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\skybox_fs.glsl">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\uniforms_h.glsl">
+      <Filter>Shaders\Utils</Filter>
+    </None>
+    <None Include="Shaders\utilities.glsl">
+      <Filter>Shaders\Utils</Filter>
+    </None>
+    <None Include="Shaders\noise.glsl">
+      <Filter>Shaders\Utils</Filter>
+    </None>
+    <None Include="Shaders\dnoise.glsl">
+      <Filter>Shaders\Utils</Filter>
+    </None>
+    <None Include="Shaders\LightHelper.glsl">
+      <Filter>Shaders\Utils</Filter>
+    </None>
+    <None Include="Shaders\ocean_vs.glsl">
+      <Filter>Shaders\Ocean</Filter>
+    </None>
+    <None Include="Shaders\ocean_fs.glsl">
+      <Filter>Shaders\Ocean</Filter>
+    </None>
+    <None Include="Shaders\ocean_h.glsl">
+      <Filter>Shaders\Ocean</Filter>
+    </None>
+    <None Include="Shaders\basic_fs.glsl">
+      <Filter>Shaders\General</Filter>
+    </None>
+    <None Include="Shaders\basic_vs.glsl">
+      <Filter>Shaders\General</Filter>
+    </None>
+    <None Include="Shaders\voxel_fs.glsl">
+      <Filter>Shaders\Voxel</Filter>
+    </None>
+    <None Include="Shaders\voxel_vs.glsl">
+      <Filter>Shaders\Voxel</Filter>
+    </None>
+  </ItemGroup>
+</Project>
