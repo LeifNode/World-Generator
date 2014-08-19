@@ -32,6 +32,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+//Modified to use double precision
+
+//sin() does not support double precision
 //iq hash
 /* double hash( double n )
 {

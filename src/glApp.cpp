@@ -125,10 +125,10 @@ void GLApp::Initialize()
 
 	LeapControl::getInstance().Initialize();
 
-	mpParticleSystem->Initialize();
-	//mpAtmosphereRenderer->Initialize();
+	//mpParticleSystem->Initialize();
+	mpAtmosphereRenderer->Initialize();
 	mpSkybox->Initialize();
-	//mpTerrain->Initialize();
+	mpTerrain->Initialize();
 	//mpVoxels->Initialize();
 	//mpOcean->Initialize();
 }
@@ -322,8 +322,8 @@ void GLApp::Update()
 
 	UpdateFrameCounter(mTimer.DeltaTime());
 
-	//mpTerrain->Update(mCamera, (float)mTimer.DeltaTime());
-	mpParticleSystem->Update((float)mTimer.DeltaTime());
+	mpTerrain->Update(mCamera, (float)mTimer.DeltaTime());
+	//mpParticleSystem->Update((float)mTimer.DeltaTime());
 }
 
 void GLApp::UpdateFrameCounter(double dt)
@@ -432,12 +432,12 @@ void GLApp::Render()
 		(*it)->Draw(objectBlock, perObjectBuffer);
 	}
 
-	//mpTerrain->Render(perFrame, perObjectBuffer, renderProgram);
-	//mpAtmosphereRenderer->Render(perFrame, perObjectBuffer, renderProgram);
+	mpTerrain->Render(perFrame, perObjectBuffer, renderProgram);
+	mpAtmosphereRenderer->Render(perFrame, perObjectBuffer, renderProgram);
 
 	LeapControl::getInstance().Render(perFrame, perObjectBuffer);
 
-	mpParticleSystem->Draw();
+	//mpParticleSystem->Draw();
 	//mpOcean->Render(perFrame, perObjectBuffer, renderProgram);
 }
 

@@ -1,5 +1,5 @@
 /*
- *	Implementation of Frank Luna's GameTimer with Trackable implementation and edits for documentation
+ *	Implementation of Frank Luna's GameTimer
  */
 
 #pragma once
